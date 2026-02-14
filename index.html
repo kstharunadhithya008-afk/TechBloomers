@@ -1,1 +1,186 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Tech Bloomers Conference</title>\n    <link rel="stylesheet" href="styles.css">\n</head>\n<body>\n    <header>\n        <h1>Tech Bloomers Conference 2026</h1>\n        <nav>\n            <ul>\n                <li><a href="#about">About</a></li>\n                <li><a href="#committees">Committees</a></li>\n                <li><a href="#call-for-papers">Call for Papers</a></li>\n                <li><a href="#important-dates">Important Dates</a></li>\n                <li><a href="#registration">Registration</a></li>\n                <li><a href="#keynotes">Keynotes</a></li>\n                <li><a href="#schedule">Schedule</a></li>\n                <li><a href="#submission">Submission</a></li>\n                <li><a href="#sponsors">Sponsors</a></li>\n                <li><a href="#contact">Contact</a></li>\n            </ul>\n        </nav>\n    </header>\n    <section id="hero">\n        <h2>Welcome to the Tech Bloomers Conference!</h2>\n        <p>Join us for an exciting event on the latest in technology and innovation.</p>\n        <a href="#registration" class="cta">Register Now</a>\n    </section>\n    <section id="about">\n        <h3>About the Conference</h3>\n        <p>The Tech Bloomers Conference is dedicated to exploring advancements in technology and their impact on society.</p>\n    </section>\n    <section id="committees">\n        <h3>Committees</h3>\n        <p>Meet our dedicated committees working tirelessly to ensure a successful conference.</p>\n    </section>\n    <section id="call-for-papers">\n        <h3>Call for Papers</h3>\n        <p>We invite researchers and practitioners to submit their papers for consideration.</p>\n    </section>\n    <section id="important-dates">\n        <h3>Important Dates</h3>\n        <ul>\n            <li>Submission Deadline: March 1, 2026</li>\n            <li>Notification of Acceptance: March 15, 2026</li>\n            <li>Conference Date: April 20-22, 2026</li>\n        </ul>\n    </section>\n    <section id="registration">\n        <h3>Registration</h3>\n        <p>Register for the conference online to secure your spot.</p>\n    </section>\n    <section id="keynotes">\n        <h3>Keynotes</h3>\n        <p>Join our keynote speakers as they share insights on the future of technology.</p>\n    </section>\n    <section id="schedule">\n        <h3>Schedule</h3>\n        <p>Check out the schedule for various sessions and workshops at the conference.</p>\n    </section>\n    <section id="submission">\n        <h3>Submission Guidelines</h3>\n        <p>Follow our submission guidelines for a successful paper submission.</p>\n    </section>\n    <section id="sponsors">\n        <h3>Sponsors</h3>\n        <p>We thank our sponsors for their support in making this conference possible.</p>\n    </section>\n    <section id="contact">\n        <h3>Contact Us</h3>\n        <p>If you have any questions, feel free to reach out to us.</p>\n    </section>\n    <footer>\n        <p>&copy; 2026 Tech Bloomers Conference</p>\n    </footer>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Bloomers 2026 | PERI Institute of Technology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #061121 0%, #0c2144 50%, #163a7a 100%);
+        }
+        .peri-gold-border { border-color: #d4af37; }
+        .peri-gold-text { color: #d4af37; }
+        .nav-link { position: relative; font-weight: 600; }
+        .nav-link::after {
+            content: ''; position: absolute; width: 0; height: 2px;
+            bottom: -4px; left: 0; background: #d4af37; transition: width 0.3s;
+        }
+        .nav-link:hover::after { width: 100%; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-900">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
+            <div class="flex items-center space-x-3">
+                <div class="bg-[#0c2144] text-white p-2 rounded flex flex-col items-center leading-none">
+                    <span class="text-[10px] font-bold">PERI</span>
+                    <span class="text-lg font-black">IT</span>
+                </div>
+                <div class="hidden sm:block">
+                    <p class="text-xs font-bold text-slate-500 uppercase tracking-tighter">Hosted at</p>
+                    <p class="text-sm font-black text-[#0c2144]">PERI Knowledge Park</p>
+                </div>
+            </div>
+            
+            <div class="hidden lg:flex space-x-8 text-xs font-bold uppercase tracking-widest text-slate-600">
+                <a href="#about" class="nav-link hover:text-blue-900">About</a>
+                <a href="#committees" class="nav-link hover:text-blue-900">Committees</a>
+                <a href="#tracks" class="nav-link hover:text-blue-900">Tracks</a>
+                <a href="#dates" class="nav-link hover:text-blue-900">Dates</a>
+                <a href="#registration" class="bg-[#0c2144] text-white px-6 py-3 rounded-md hover:bg-blue-800 transition">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-gradient text-white py-28 px-6 relative">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-amber-400 font-bold tracking-[0.3em] uppercase mb-4">International Conference</h2>
+            <h1 class="text-4xl md:text-7xl font-black mb-6">TECH BLOOMERS <span class="text-white/50">2026</span></h1>
+            <p class="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto mb-10 leading-relaxed">
+                Exploring the frontiers of Engineering and Technology at <br>
+                <span class="font-bold text-white">PERI Institute of Technology</span>
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <div class="flex items-center justify-center space-x-2 bg-white/10 px-6 py-3 rounded-full backdrop-blur-md">
+                    <i class="fas fa-calendar-check text-amber-400"></i>
+                    <span>April 20 - 22, 2026</span>
+                </div>
+                <div class="flex items-center justify-center space-x-2 bg-white/10 px-6 py-3 rounded-full backdrop-blur-md">
+                    <i class="fas fa-map-marker-alt text-amber-400"></i>
+                    <span>Mannivakkam, Chennai</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-20">
+        <div class="grid lg:grid-cols-3 gap-16">
+            
+            <div class="lg:col-span-2 space-y-16">
+                
+                <section id="about">
+                    <h3 class="text-2xl font-black text-blue-900 mb-6 uppercase tracking-tight border-b-4 border-amber-400 inline-block">About the Conference</h3>
+                    <p class="text-slate-600 leading-relaxed text-lg">
+                        The Tech Bloomers Conference, hosted at <strong>PERI Knowledge Park</strong>, serves as a vital platform for researchers, academicians, and industry professionals to exchange innovative ideas. Following the standards of global technical summits, our 2026 edition focuses on sustainable technological evolution.
+                    </p>
+                </section>
+
+                <section id="committees">
+                    <h3 class="text-2xl font-black text-blue-900 mb-6 uppercase tracking-tight border-b-4 border-amber-400 inline-block">Organizing Committee</h3>
+                    <div class="grid sm:grid-cols-2 gap-8">
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                            <h4 class="font-bold text-blue-900 mb-2">Chief Patron</h4>
+                            <p class="text-slate-600">Chairman, PERI Institute of Technology</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                            <h4 class="font-bold text-blue-900 mb-2">Conference Chair</h4>
+                            <p class="text-slate-600">Principal, PERI IT</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="tracks">
+                    <h3 class="text-2xl font-black text-blue-900 mb-8 uppercase tracking-tight border-b-4 border-amber-400 inline-block">Technical Tracks</h3>
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div class="flex items-center p-4 bg-blue-50 rounded-lg group hover:bg-blue-900 transition duration-300">
+                            <span class="w-8 h-8 flex items-center justify-center bg-blue-900 text-white rounded font-bold mr-4 group-hover:bg-amber-400 group-hover:text-blue-900">01</span>
+                            <span class="font-bold text-blue-900 group-hover:text-white">Next-Gen Communication</span>
+                        </div>
+                        <div class="flex items-center p-4 bg-blue-50 rounded-lg group hover:bg-blue-900 transition duration-300">
+                            <span class="w-8 h-8 flex items-center justify-center bg-blue-900 text-white rounded font-bold mr-4 group-hover:bg-amber-400 group-hover:text-blue-900">02</span>
+                            <span class="font-bold text-blue-900 group-hover:text-white">VLSI & Embedded Systems</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="space-y-8">
+                <div id="dates" class="bg-[#0c2144] text-white p-8 rounded-2xl shadow-2xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-20 h-20 bg-amber-400/10 rounded-full -mr-10 -mt-10"></div>
+                    <h3 class="text-xl font-bold mb-8 border-l-4 border-amber-400 pl-4">Important Dates</h3>
+                    <div class="space-y-6">
+                        <div class="border-b border-white/10 pb-4">
+                            <p class="text-amber-400 text-xs font-bold uppercase">Submission Deadline</p>
+                            <p class="text-lg font-medium">March 01, 2026</p>
+                        </div>
+                        <div class="border-b border-white/10 pb-4">
+                            <p class="text-amber-400 text-xs font-bold uppercase">Acceptance Notification</p>
+                            <p class="text-lg font-medium">March 15, 2026</p>
+                        </div>
+                        <div class="pb-2">
+                            <p class="text-amber-400 text-xs font-bold uppercase">Conference Dates</p>
+                            <p class="text-lg font-medium">April 20-22, 2026</p>
+                        </div>
+                    </div>
+                    <a href="#" class="mt-8 block text-center bg-amber-400 text-blue-900 font-bold py-3 rounded-lg hover:bg-white transition">Submit Abstract</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                    <h4 class="font-black text-blue-900 uppercase text-xs tracking-widest mb-4">Venue Location</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        <strong>PERI Knowledge Park</strong><br>
+                        Mannivakkam, Chennai - 600 048.<br>
+                        Tamil Nadu, India.
+                    </p>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="bg-[#061121] text-white pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-16 border-b border-white/5 pb-16">
+            <div class="col-span-1">
+                <div class="flex items-center space-x-2 mb-6">
+                    <div class="bg-amber-400 text-blue-900 p-1 px-2 rounded font-black text-sm">PERI</div>
+                    <span class="text-xl font-bold tracking-tighter">TECH BLOOMERS</span>
+                </div>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Organized by the Department of Electronics and Communication Engineering, PERI Institute of Technology.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-amber-400 font-bold uppercase text-xs tracking-widest mb-6">Contact Us</h4>
+                <ul class="text-slate-400 text-sm space-y-4">
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt mt-1 mr-3 text-white/50"></i>
+                        <span>PERI Knowledge Park, Mannivakkam, Chennai - 600 048.</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-envelope mr-3 text-white/50"></i>
+                        <span>techbloomers@peri.education</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-amber-400 font-bold uppercase text-xs tracking-widest mb-6">Quick Links</h4>
+                <div class="grid grid-cols-2 gap-4 text-slate-400 text-sm">
+                    <a href="#" class="hover:text-white transition">Registration</a>
+                    <a href="#" class="hover:text-white transition">Paper Format</a>
+                    <a href="#" class="hover:text-white transition">Keynote</a>
+                    <a href="#" class="hover:text-white transition">Schedule</a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-[10px] uppercase tracking-[0.2em]">
+            <p>&copy; 2026 PERI Institute of Technology</p>
+            <p>Designed for Tech Bloomers Conference</p>
+        </div>
+    </footer>
+
+</body>
+</html>
